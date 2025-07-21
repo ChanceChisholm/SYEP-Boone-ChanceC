@@ -16,3 +16,6 @@ body {
     color: cornflowerblue;
 
 }
+body, footer {
+    font-family: 'Times New Roman', Times, serif
+}
