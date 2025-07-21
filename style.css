@@ -12,6 +12,7 @@ body {
 .hero img {
     border-radius: 50%;
     margin-top:30px;
+    padding-bottom: 12px;
 }
 
 .accent {
