@@ -1,7 +1,8 @@
 * {
-    margin:-10px;
+    margin:0px;
     padding:0;
     box-sizing:border-box;
+    line-height: 1.4159265359;
 }
 body {
     background-color: #0a489f;
