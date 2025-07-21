@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin:20px;
     padding:0;
     box-sizing:border-box;
 }
@@ -18,7 +18,4 @@ body {
 }
 body, footer {
     font-family: 'Times New Roman', Times, serif
-}
-.sunset-beach {
-    padding-top: 20px;
 }
