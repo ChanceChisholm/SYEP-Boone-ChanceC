@@ -17,8 +17,28 @@ body {
 
 .accent {
     color: cornflowerblue;
-
 }
 body, footer {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: #ff0000;
+    }
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    background-color:darkslateblue;
+    border-radius: 100px;
+    padding: 2px;
+    min-width:100px;
 }
