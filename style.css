@@ -8,6 +8,7 @@ body {
     background-color: #0a489f;
     text-align: center;
     line-height: 2.1;
+    font-size: larger;
 }
 .hero img {
     border-radius: 50%;
@@ -20,6 +21,7 @@ body {
 }
 body, footer {
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 @media screen and (max-width:768px) {
@@ -41,4 +43,10 @@ body, footer {
     border-radius: 100px;
     padding: 2px;
     min-width:100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row-reverse;
 }
