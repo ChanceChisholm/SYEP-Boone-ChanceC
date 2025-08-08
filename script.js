@@ -1,6 +1,6 @@
 console.log("Hello, World!");
 
-//String has quotes/numbers don't//
+//Strings have quotes & numbers don't//
 let myTest="123";
 console.log(typeof myTest);
 
