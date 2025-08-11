@@ -56,3 +56,21 @@ body, footer {
   color: #0f1e2e !important;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2b3035; /* or set your preferred background */
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 1000; /* makes sure it stays on top */
+}
+
+#greeting {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+}

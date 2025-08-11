@@ -72,11 +72,11 @@ Global Styles
  box-sizing: border-box;
 }
 body {
- font-family: var(--ff-secondary);
+ font-family: 'Times New Roman', Times, serif;
  background: var(--clr-grey-10);
  color: var(--clr-grey-1);
  line-height: 1.5;
- font-size: 0.875rem;
+ font-size: larger;
 }
 ul {
  list-style-type: none;
@@ -92,19 +92,19 @@ h4 {
  text-transform: capitalize;
  line-height: 1.25;
  margin-bottom: 0.75rem;
- font-family: var(--ff-primary);
+ font-family: 'Times New Roman', Times, serif;
 }
 h1 {
- font-size: 3rem;
+ font-size: larger;
 }
 h2 {
- font-size: 2rem;
+ font-size: larger;
 }
 h3 {
- font-size: 1.25rem;
+ font-size: larger;
 }
 h4 {
- font-size: 0.875rem;
+ font-size: larger;
 }
 p {
  margin-bottom: 1.25rem;
@@ -112,19 +112,19 @@ p {
 }
 @media screen and (min-width: 800px) {
  h1 {
-   font-size: 4rem;
+   font-size: larger;
  }
  h2 {
-   font-size: 2.5rem;
+   font-size: larger;
  }
  h3 {
-   font-size: 1.75rem;
+   font-size: larger;
  }
  h4 {
-   font-size: 1rem;
+   font-size: larger;
  }
  body {
-   font-size: 1rem;
+   font-size: larger;
  }
  h1,
  h2,
@@ -214,7 +214,7 @@ main {
  position: relative;
 }
 .img-container::after {
- font-family: "Font Awesome 5 Free";
+ font-family: 'Times New Roman', Times, serif;
  font-weight: 900;
  content: "\f10e";
  position: absolute;
@@ -246,7 +246,7 @@ main {
  margin-bottom: 0.5rem;
  text-transform: uppercase;
  color: var(--clr-primary-5);
- font-size: 0.85rem;
+ font-size: larger;
 }
 #info {
  margin-bottom: 0.75rem;
@@ -254,7 +254,7 @@ main {
 .prev-btn,
 .next-btn {
  color: var(--clr-primary-7);
- font-size: 1.25rem;
+ font-size: larger;
  background: transparent;
  border-color: transparent;
  margin: 0 0.5rem;
@@ -290,4 +290,17 @@ main {
 .review .button-container button:hover {
   background-color: #0f1e2e;
   border-color: #0f1e2e;
+}
+
+#greeting {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+}
+
+#testim {
+   font-size: 4rem;
+
 }
