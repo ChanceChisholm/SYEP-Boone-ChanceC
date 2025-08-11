@@ -26,7 +26,7 @@ body, footer {
 
 @media screen and (max-width:768px) {
     body {
-        background-color: #ff0000;
+        background-color: cornflowerblue;
     }
 }
 
@@ -50,3 +50,9 @@ body, footer {
     align-items: flex-end;
     flex-direction: row-reverse;
 }
+
+/* Navbar active link color to match testimonial button hover color */
+.navbar-nav .nav-link.active {
+  color: #0f1e2e !important;
+}
+
