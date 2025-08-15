@@ -17,7 +17,7 @@ body {
 }
 
 .accent {
-    color: cornflowerblue;
+    color:brown ;
 }
 body, footer {
     font-family: 'Times New Roman', Times, serif;
@@ -65,7 +65,7 @@ body, footer {
 }
 
 footer {
-  position: static;        /* Add this line */
+  position: static;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -73,6 +73,8 @@ footer {
   text-align: center;
   padding: 1rem 0;
   z-index: 1000;
+  white-space: nowrap;      /* Prevent line breaks */
+  overflow-x: auto;         /* Allow horizontal scroll if needed */
 }
 
 #greeting {
