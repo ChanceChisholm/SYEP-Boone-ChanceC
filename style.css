@@ -1,67 +1,69 @@
 * {
-    margin:0px;
-    padding:0;
-    box-sizing:border-box;
-    line-height: 1.4159265359;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4159265359;
 }
+
 body {
-    background-color: #0a489f;
-    text-align: center;
-    line-height: 2.1;
-    font-size: larger;
+  background-color: #0a489f;
+  text-align: center;
+  line-height: 2.1;
+  font-size: larger;
 }
+
 .hero img {
-    border-radius: 50%;
-    margin-top:30px;
-    padding-bottom: 20px;
+  border-radius: 50%;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .accent {
-    color:brown ;
-}
-body, footer {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+  color: brown;
 }
 
-@media screen and (max-width:768px) {
-    body {
-        background-color: cornflowerblue;
-    }
+body,
+footer {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: cornflowerblue;
+  }
 }
 
 .grid {
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .grid div {
-    background-color:darkslateblue;
-    border-radius: 100px;
-    padding: 2px;
-    min-width:100px;
+  background-color: darkslateblue;
+  border-radius: 100px;
+  padding: 2px;
+  min-width: 100px;
 }
 
-.navbar-nav {
-    display: flex;
-    gap: 1rem; /* space between links */
-}
-
+/* Navbar links spacing only on large screens */
 @media (min-width: 992px) {
-    .navbar-nav {
-        margin-left: auto; /* pushes links to the right */
-    }
+  .navbar-nav {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+  }
 }
 
+/* Mobile menu layout (Bootstrap will handle show/hide) */
 @media (max-width: 991.98px) {
-    .navbar-nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-    }
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 }
 
 footer {
@@ -73,8 +75,8 @@ footer {
   text-align: center;
   padding: 1rem 0;
   z-index: 1000;
-  white-space: nowrap;      /* Prevent line breaks */
-  overflow-x: auto;         /* Allow horizontal scroll if needed */
+  white-space: nowrap;
+  overflow-x: auto;
 }
 
 #greeting {
