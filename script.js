@@ -65,13 +65,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Day of week message
     const dayMessages = [
-        "Happy Sunday! Take time to relax and recharge!",
-        "Happy Monday! Start your week strong!",
-        "Happy Tuesday! Keep up the momentum!",
-        "Happy Wednesday! You're halfway there!",
-        "Happy Thursday! Stay focused!",
-        "Happy Friday! Have a great weekend!",
-        "Happy Saturday! Enjoy your weekend!"
+        "Have a superb Sunday, Take time to relax and recharge!",
+        "Have a marvelous Monday, Start your week strong!",
+        "Have a terrific Tuesday, Keep up the momentum!",
+        "Have a wonderful Wednesday, You're halfway there!",
+        "Have a thrilling Thursday, Stay focused!",
+        "Have a fantastic Friday, Have a great weekend!",
+        "Have a spectacular Saturday, Enjoy your weekend!"
     ];
     const today = new Date().getDay(); // 0 = Sunday, 6 = Saturday
     const dayMessageElement = document.getElementById("day-message");
