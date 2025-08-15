@@ -100,8 +100,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
         link.addEventListener('click', function () {
             const navbarCollapse = document.getElementById('navbarNav');
-            if (navbarCollapse.classList.contains('show')) {
-                // Use Bootstrap's collapse API to hide
+            if (navbarCollapse.classList.contains('show') && window.bootstrap && window.bootstrap.Collapse) {
                 const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
                 bsCollapse.hide();
             }
