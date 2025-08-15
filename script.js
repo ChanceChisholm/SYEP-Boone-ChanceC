@@ -95,4 +95,16 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         showPerson(currentItem);
     });
+
+    // 5. Collapse navbar on link click (for mobile)
+    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+        link.addEventListener('click', function () {
+            const navbarCollapse = document.getElementById('navbarNav');
+            if (navbarCollapse.classList.contains('show')) {
+                // Use Bootstrap's collapse API to hide
+                const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+                bsCollapse.hide();
+            }
+        });
+    });
 });
