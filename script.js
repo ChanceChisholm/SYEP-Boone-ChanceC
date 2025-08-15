@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', () => {
         "Have a terrific Tuesday, Keep up the momentum!",
         "Have a wonderful Wednesday, You're halfway there!",
         "Have a thrilling Thursday, Stay focused!",
-        "Have a fantastic Friday, Have a great weekend!",
+        "Have a fantastic Friday, Get ready for a great weekend!",
         "Have a spectacular Saturday, Enjoy your weekend!"
     ];
     const today = new Date().getDay(); // 0 = Sunday, 6 = Saturday
