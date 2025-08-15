@@ -63,6 +63,22 @@ window.addEventListener('DOMContentLoaded', () => {
         greetingElement.textContent = greeting;
     }
 
+    // Day of week message
+    const dayMessages = [
+        "Happy Sunday! Take time to relax and recharge!",
+        "Happy Monday! Start your week strong!",
+        "Happy Tuesday! Keep up the momentum!",
+        "Happy Wednesday! You're halfway there!",
+        "Happy Thursday! Stay focused!",
+        "Happy Friday! Have a great weekend!",
+        "Happy Saturday! Enjoy your weekend!"
+    ];
+    const today = new Date().getDay(); // 0 = Sunday, 6 = Saturday
+    const dayMessageElement = document.getElementById("day-message");
+    if (dayMessageElement) {
+        dayMessageElement.textContent = dayMessages[today];
+    }
+
     // 2. Load initial review item
     showPerson(currentItem);
 
