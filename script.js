@@ -8,17 +8,17 @@ const reviews = [
     },
     {
         id: 2,
-        name: 'Anna Johnson',
-        job: 'Web Developer',
-        img: 'images/anna.jpg',
-        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.',
+        name: 'Brian Palacios',
+        job: 'Mathematics Teacher',
+        img: 'images/BRIPAL.png',
+        text: "Chance is a wonderful student. He's studious, disciplined, and highly engaged. He's also keenly observant and prepared. I wish there were more students with his work ethic! ",
     },
     {
         id: 3,
-        name: 'Peter Jones',
-        job: 'Teacher',
-        img: 'images/peter.jpg',
-        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.',
+        name: 'Lorri Eskanazi',
+        job: 'Special Education Teacher',
+        img: 'images/LE.jpg',
+        text: 'When Chance is faced with challenges, he tackles them head on. His resilience and determination make him the exceptional student that he is. In addition to Chance’s work ethic, Chance is a respectful, helpful and kind young man.',
     }
 ];
 
